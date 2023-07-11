@@ -3,7 +3,7 @@ FROM ubuntu:latest
 
 # description
 LABEL description="containerize Apache webapp"
-LABEL maintainer="infrastructure as code best way to do it"
+LABEL maintainer="Jenkins is another way to built tree stage pipeline"
 
 # update package lists and install Apache
 RUN apt-get update && apt-get install -y apache2
